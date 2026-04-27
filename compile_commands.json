@@ -1,0 +1,56 @@
+[
+  {
+    "directory": "/Users/ms/elec/birdscanner/nrf52-ao",
+    "command": "/Users/ms/elec/birdscanner/nrf52-ao/toolchain/bin/arm-none-eabi-gcc -DNRF52840_XXAA -I/Users/ms/elec/birdscanner/nrf52-ao/c/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/mdk -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/soc -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/hal -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/CMSIS_6/CMSIS/Core/Include -std=gnu11 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -g3 -o CMakeFiles/nrf52-ao.elf.dir/c/src/hw_egu.c.obj -c /Users/ms/elec/birdscanner/nrf52-ao/c/src/hw_egu.c",
+    "file": "/Users/ms/elec/birdscanner/nrf52-ao/c/src/hw_egu.c",
+    "output": "CMakeFiles/nrf52-ao.elf.dir/c/src/hw_egu.c.obj"
+  },
+  {
+    "directory": "/Users/ms/elec/birdscanner/nrf52-ao",
+    "command": "/Users/ms/elec/birdscanner/nrf52-ao/toolchain/bin/arm-none-eabi-gcc -DNRF52840_XXAA -I/Users/ms/elec/birdscanner/nrf52-ao/c/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/mdk -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/soc -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/hal -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/CMSIS_6/CMSIS/Core/Include -std=gnu11 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -g3 -o CMakeFiles/nrf52-ao.elf.dir/c/src/hw_gpio.c.obj -c /Users/ms/elec/birdscanner/nrf52-ao/c/src/hw_gpio.c",
+    "file": "/Users/ms/elec/birdscanner/nrf52-ao/c/src/hw_gpio.c",
+    "output": "CMakeFiles/nrf52-ao.elf.dir/c/src/hw_gpio.c.obj"
+  },
+  {
+    "directory": "/Users/ms/elec/birdscanner/nrf52-ao",
+    "command": "/Users/ms/elec/birdscanner/nrf52-ao/toolchain/bin/arm-none-eabi-gcc -DNRF52840_XXAA -I/Users/ms/elec/birdscanner/nrf52-ao/c/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/mdk -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/soc -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/hal -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/CMSIS_6/CMSIS/Core/Include -std=gnu11 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -g3 -o CMakeFiles/nrf52-ao.elf.dir/c/src/hw_timer.c.obj -c /Users/ms/elec/birdscanner/nrf52-ao/c/src/hw_timer.c",
+    "file": "/Users/ms/elec/birdscanner/nrf52-ao/c/src/hw_timer.c",
+    "output": "CMakeFiles/nrf52-ao.elf.dir/c/src/hw_timer.c.obj"
+  },
+  {
+    "directory": "/Users/ms/elec/birdscanner/nrf52-ao",
+    "command": "/Users/ms/elec/birdscanner/nrf52-ao/toolchain/bin/arm-none-eabi-gcc -DNRF52840_XXAA -I/Users/ms/elec/birdscanner/nrf52-ao/c/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/mdk -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/soc -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/hal -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/CMSIS_6/CMSIS/Core/Include -std=gnu11 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -g3 -o CMakeFiles/nrf52-ao.elf.dir/c/src/isr_mask.c.obj -c /Users/ms/elec/birdscanner/nrf52-ao/c/src/isr_mask.c",
+    "file": "/Users/ms/elec/birdscanner/nrf52-ao/c/src/isr_mask.c",
+    "output": "CMakeFiles/nrf52-ao.elf.dir/c/src/isr_mask.c.obj"
+  },
+  {
+    "directory": "/Users/ms/elec/birdscanner/nrf52-ao",
+    "command": "/Users/ms/elec/birdscanner/nrf52-ao/toolchain/bin/arm-none-eabi-gcc -DNRF52840_XXAA -I/Users/ms/elec/birdscanner/nrf52-ao/c/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/mdk -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/soc -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/hal -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/CMSIS_6/CMSIS/Core/Include -std=gnu11 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -g3 -o CMakeFiles/nrf52-ao.elf.dir/c/src/main.c.obj -c /Users/ms/elec/birdscanner/nrf52-ao/c/src/main.c",
+    "file": "/Users/ms/elec/birdscanner/nrf52-ao/c/src/main.c",
+    "output": "CMakeFiles/nrf52-ao.elf.dir/c/src/main.c.obj"
+  },
+  {
+    "directory": "/Users/ms/elec/birdscanner/nrf52-ao",
+    "command": "/Users/ms/elec/birdscanner/nrf52-ao/toolchain/bin/arm-none-eabi-gcc -DNRF52840_XXAA -I/Users/ms/elec/birdscanner/nrf52-ao/c/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/mdk -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/soc -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/hal -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/CMSIS_6/CMSIS/Core/Include -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -g3 -o CMakeFiles/nrf52-ao.elf.dir/vendor/nrfx/bsp/stable/mdk/gcc_startup_nrf52840.S.obj -c /Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/mdk/gcc_startup_nrf52840.S",
+    "file": "/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/mdk/gcc_startup_nrf52840.S",
+    "output": "CMakeFiles/nrf52-ao.elf.dir/vendor/nrfx/bsp/stable/mdk/gcc_startup_nrf52840.S.obj"
+  },
+  {
+    "directory": "/Users/ms/elec/birdscanner/nrf52-ao",
+    "command": "/Users/ms/elec/birdscanner/nrf52-ao/toolchain/bin/arm-none-eabi-gcc -DNRF52840_XXAA -I/Users/ms/elec/birdscanner/nrf52-ao/c/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/mdk -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/soc -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/hal -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/CMSIS_6/CMSIS/Core/Include -std=gnu11 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -g3 -o CMakeFiles/nrf52-ao.elf.dir/vendor/nrfx/bsp/stable/mdk/system_nrf52840.c.obj -c /Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/mdk/system_nrf52840.c",
+    "file": "/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/mdk/system_nrf52840.c",
+    "output": "CMakeFiles/nrf52-ao.elf.dir/vendor/nrfx/bsp/stable/mdk/system_nrf52840.c.obj"
+  },
+  {
+    "directory": "/Users/ms/elec/birdscanner/nrf52-ao",
+    "command": "/Users/ms/elec/birdscanner/nrf52-ao/toolchain/bin/arm-none-eabi-gcc -DNRF52840_XXAA -I/Users/ms/elec/birdscanner/nrf52-ao/c/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/mdk -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/soc -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/hal -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/CMSIS_6/CMSIS/Core/Include -std=gnu11 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -g3 -o CMakeFiles/nrf52-ao.elf.dir/vendor/nrfx/drivers/src/nrfx_egu.c.obj -c /Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers/src/nrfx_egu.c",
+    "file": "/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers/src/nrfx_egu.c",
+    "output": "CMakeFiles/nrf52-ao.elf.dir/vendor/nrfx/drivers/src/nrfx_egu.c.obj"
+  },
+  {
+    "directory": "/Users/ms/elec/birdscanner/nrf52-ao",
+    "command": "/Users/ms/elec/birdscanner/nrf52-ao/toolchain/bin/arm-none-eabi-gcc -DNRF52840_XXAA -I/Users/ms/elec/birdscanner/nrf52-ao/c/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/mdk -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/soc -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/bsp/stable/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/templates -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/hal -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers/include -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers -I/Users/ms/elec/birdscanner/nrf52-ao/vendor/CMSIS_6/CMSIS/Core/Include -std=gnu11 -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -g3 -o CMakeFiles/nrf52-ao.elf.dir/vendor/nrfx/drivers/src/nrfx_timer.c.obj -c /Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers/src/nrfx_timer.c",
+    "file": "/Users/ms/elec/birdscanner/nrf52-ao/vendor/nrfx/drivers/src/nrfx_timer.c",
+    "output": "CMakeFiles/nrf52-ao.elf.dir/vendor/nrfx/drivers/src/nrfx_timer.c.obj"
+  }
+]

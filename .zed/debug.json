@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Flash & Debug nRF52",
+    "adapter": "probe-rs",
+    "request": "launch",
+    "build": "cmake build",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "chip": "nRF52840_xxAA",
+    "flashingConfig": {
+      "flashingEnabled": true,
+      "haltAfterReset": true,
+      "resetAfterFlashing": true,
+    },
+    "coreIndex": 0,
+    "coreConfigs": [
+      {
+        "coreIndex": 0,
+        "programBinary": "$ZED_WORKTREE_ROOT/build/nrf52-ao.elf",
+      },
+    ],
+  },
+]

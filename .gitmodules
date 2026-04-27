@@ -1,0 +1,6 @@
+[submodule "vendor/CMSIS_6"]
+	path = vendor/CMSIS_6
+	url = https://github.com/ARM-software/CMSIS_6
+[submodule "vendor/nrfx"]
+	path = vendor/nrfx
+	url = https://github.com/NordicSemiconductor/nrfx

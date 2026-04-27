@@ -1,0 +1,7 @@
+/build/
+/target/
+/toolchain/
+/.cache/
+
+# Vendor code is managed via git submodules, not committed directly.
+# Users should clone with --recursive: git clone --recursive <url>

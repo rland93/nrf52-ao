@@ -1,0 +1,20 @@
+[package]
+name = "nrf52-ao"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["staticlib"]
+
+[profile.dev]
+debug = 2
+opt-level = 1
+panic = "abort"
+
+[profile.release]
+debug = 2
+opt-level = 0
+lto = true
+codegen-units = 1
+overflow-checks = false
+panic = "abort"
