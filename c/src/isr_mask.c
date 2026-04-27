@@ -1,8 +1,8 @@
 /// functions to mask ISR
 #include "isr_mask.h"
 
-#include "nrf.h"
-#include "rust_exports.h"
+#include "nrf.h"           // IWYU pragma: keep
+#include "rust_exports.h"  // IWYU pragma: keep
 
 uint32_t c_enter_critical(void) {
   uint32_t primask = __get_PRIMASK();
