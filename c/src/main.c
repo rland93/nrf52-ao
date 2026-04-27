@@ -5,8 +5,11 @@
 
 int main(void) {
   hw_gpio_led_init();
+
+  // initialize 'system timer'
+  init_sys_timer3();
+
   egu_init();
-  init_heartbeat_timer();
 
   // rust app does not return.
   rust_app_main();
