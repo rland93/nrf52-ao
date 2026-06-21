@@ -74,3 +74,23 @@ cmake --build build
 ```
 
 To run it, I have a debug setup for probe-rs in the .zed directory.
+
+## nRF52
+
+This firmware uses the NVIC of the nRF52 for concurrency.
+
+We have 8 different priorities available to us. Of these, 3 are owned by the
+bluetooth softdevice. They are split up as follows:
+
+
+```
+P0 -> owned by softdevice
+P1 -> owned by softdevice
+P2 -> high priority interrupts
+P3 -> high priority active objects
+P4 -> owned by softdevice (softdevice events)
+P5 -> low priority interrupts
+P6 -> low priority active objects
+P7 -> low priority active objects
+-  -> main() (sleep)
+```

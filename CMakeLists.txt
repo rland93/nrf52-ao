@@ -55,6 +55,7 @@ add_executable(nrf52-ao.elf
     c/src/hw_egu.c
     c/src/hw_gpio.c
     c/src/hw_timer.c
+    c/src/hw_rtc.c
     c/src/isr_mask.c
     c/src/main.c
     ${NRFX_SOURCES}

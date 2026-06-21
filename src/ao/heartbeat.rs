@@ -1,7 +1,6 @@
 /// heartbeat.rs
 ///
-use crate::ao::ConstNullable;
-use crate::ao::ao::{AoContext, Priority, StateMachine};
+use crate::ao;
 use crate::drivers::led::Color;
 
 // all possible events that can be posted to this AO.
@@ -12,7 +11,7 @@ pub enum HeartbeatEvent {
 }
 
 // any event that can be posted must have a member which represents empty.
-impl ConstNullable for HeartbeatEvent {
+impl ao::ConstNullable for HeartbeatEvent {
     const NONE: Self = HeartbeatEvent::Empty;
 }
 
@@ -34,7 +33,7 @@ impl HeartbeatSM {
 }
 
 // the state machine to track this object's change in state in response to events.
-impl StateMachine for HeartbeatSM {
+impl ao::StateMachine for HeartbeatSM {
     type Event = HeartbeatEvent;
 
     fn handle_event(&mut self, event: Self::Event) {
@@ -51,8 +50,8 @@ impl StateMachine for HeartbeatSM {
 }
 
 // concrete representation
-pub static HEARTBEAT_AO: AoContext<HeartbeatSM, 8> =
-    AoContext::new(Priority::High, HeartbeatSM { color: Color::Off });
+pub static HEARTBEAT_AO: ao::AoContext<HeartbeatSM, ao::P5, 8> =
+    ao::AoContext::new(HeartbeatSM { color: Color::Off });
 
 // callable by C code to have ISR's posting to this AO.
 #[unsafe(no_mangle)]

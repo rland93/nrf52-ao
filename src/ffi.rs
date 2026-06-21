@@ -17,10 +17,10 @@ pub(crate) mod isr_mask {
     }
 }
 
-pub(crate) mod timer {
+pub(crate) mod timer3 {
     unsafe extern "C" {
         // get current ticks for a channel
-        pub(crate) fn c_timer3_current_ticks(channel: u8);
+        pub(crate) fn c_timer3_current_ticks(channel: u8) -> u32;
 
         // set compare value for a channel; trigger interrupt when timer reaches this value.
         pub(crate) fn c_timer3_set(channel: u8, ticks: u32);
@@ -39,5 +39,15 @@ pub(crate) mod timer {
 
         // stop the timer
         pub(crate) fn c_timer3_stop();
+    }
+}
+
+pub(crate) mod rtc {
+    unsafe extern "C" {
+        pub(crate) fn c_rtc_start();
+        pub(crate) fn c_rtc_stop();
+        pub(crate) fn c_rtc_read_current_ticks() -> u32;
+        pub(crate) fn c_rtc_set_cc0(ticks: u32);
+        pub(crate) fn c_rtc_clear_cc0();
     }
 }

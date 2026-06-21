@@ -15,6 +15,7 @@
 #define NRFX_CLOCK_ENABLED 1
 #define NRFX_CLOCK_CONFIG_LF_SRC 1
 #define NRFX_CLOCK_CONFIG_LF_CAL_ENABLED 1
+#define NRFX_RTC_ENABLED 1
 
 #include <nrfx_config_common.h>
 #include <nrfx_config_nrf52840.h>
