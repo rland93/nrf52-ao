@@ -94,3 +94,9 @@ P6 -> low priority active objects
 P7 -> low priority active objects
 -  -> main() (sleep)
 ```
+
+# Use of AI
+
+I am using the AI primarily for code review and bouncing ideas. My rule is that
+I have to type everything in and also I have to understand everything that I'm
+typing in. None of the code here is written by 'vibes'
